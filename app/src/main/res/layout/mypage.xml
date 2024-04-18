@@ -52,11 +52,10 @@
         android:layout_height="80dp"
         android:text="none"
         android:textColor="@android:color/white"
-        android:backgroundTint="#D89C04"
+        android:background="@drawable/button_rounded"
         app:layout_constraintTop_toBottomOf="@id/grf"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:radius="25dp"
         android:layout_marginTop="16dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
