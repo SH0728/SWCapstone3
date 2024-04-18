@@ -48,26 +48,16 @@
 
     <Button
         android:id="@+id/nonebutton"
-        android:layout_width="300dp"
+        android:layout_width="350dp"
         android:layout_height="80dp"
         android:text="none"
         android:textColor="@android:color/white"
-        android:backgroundTint="#FFB700"
+        android:backgroundTint="#D89C04"
         app:layout_constraintTop_toBottomOf="@id/grf"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        corners android:radius="25dp" />
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/nav"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="0dp" />
-
+        android:radius="25dp"
+        android:layout_marginTop="16dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav"
@@ -80,5 +70,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_nav_menu" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
